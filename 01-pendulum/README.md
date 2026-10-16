@@ -17,7 +17,7 @@ The relationship is approximately linear, as expected, because the potentiometer
 ## Results
 The pendulum's angle decays over time as friction removes energy, settling near 0°.
 
-![Pendulum angle vs. time](pendulum_plot.png)
+![Pendulum angle vs. time](pendulum_motion.png)
 
 ## Files
 - `simple_pendulum.m`: MATLAB script for the calibration fit and angle vs. time plot
