@@ -13,7 +13,7 @@ Before using the sensor, I stood in for it with capacitors of known value (100, 
 
 **V = 0.278 mV/pF · C + 37.7 mV** (R² ≈ 0.97)
 
-![Calibration graph](calibration_plot.png)
+![Calibration graph](humidity_calibration_plot.png)
 
 ## Results
 Using the calibration line, I converted the datasheet's capacitance-vs-humidity table into the voltage the circuit should produce at each %RH. The curve runs from about 82 mV at 0% RH to about 91 mV at 100% RH.
