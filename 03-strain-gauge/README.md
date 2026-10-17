@@ -23,7 +23,7 @@ The sensitivity analysis uses the quarter-bridge approximation ΔV ≈ Vin · (�
 ## Files
 - `strain_gauge.m`: MATLAB script that averages each recording, fits the calibration line, and computes the fit error and the 20 mV analysis
 - `79.2only.csv`, `121.7two.csv`, `164.2three.csv`: oscilloscope data for each washer
-- `calibration_plot.png`: calibration graph
+- `calibration_plot_strain_gauge.png`: calibration graph
 
 ## How to run
 Put `strain_gauge.m` and the three CSV files in the same folder, open the script in MATLAB, and run it. The command window prints the fit error for each point, the fractional resistance change, the resistance change in ohms, and the mass for a 20 mV change.
