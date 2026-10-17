@@ -19,7 +19,7 @@ The thermistor's transfer function is:
 The fixed resistor sets how much the output voltage changes across the temperature range. A divider is most sensitive when the fixed resistor is close to the thermistor's own resistance. The thermistor goes from about 12 kΩ at room temperature to about 1 kΩ near boiling, so I used 10 kΩ, which gives a usable voltage swing across the range. A much larger resistor would squeeze the signal into a narrow voltage window, and a much smaller one would barely respond at the cold end.
 
 ## Results
-![Water temperature vs. time](temperature_plot.png)
+![Water temperature vs. time](water_temp_vs_time.png)
 
 The water cooled gradually on its own, then dropped sharply when the ice water was added before leveling off near 40 °C.
 
