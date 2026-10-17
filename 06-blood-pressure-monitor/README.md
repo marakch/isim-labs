@@ -17,11 +17,11 @@ The circuit is referenced to 2.5 V, so the signal can swing above and below the 
 4. **Read the cuff pressure at that moment.** That pressure is taken as the mean arterial pressure.
 
 ## Results
-![Raw cuff pressure and filtered signal](pressure_plot.png)
+![Raw cuff pressure and filtered signal](cuff_pressure_filtered_signal.png)
 
 The pulse amplitude peaks at about **24 s**, when the cuff pressure was about **71 mmHg**. That is the estimated mean arterial pressure for this recorded dataset. The peak is broad, so anywhere from roughly 60 to 85 mmHg is a defensible reading.
 
-![Bode plot of the filter circuit](bode_plot.png)
+![Bode plot of the filter circuit](bode_plot_filter_circuit.png)
 
 Bode plot of the filter circuit, with high-pass cutoffs near 0.8 Hz, a low-pass cutoff near 2 Hz, and an overall gain of about 21.
 
