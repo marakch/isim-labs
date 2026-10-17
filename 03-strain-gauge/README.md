@@ -10,7 +10,7 @@ When the beam bends, the strain gauge stretches and its resistance rises by a ti
 ## Calibration
 I recorded the output voltage for three washers of known mass (79.2 g, 121.7 g, and 164.2 g), averaged each recording, and fit a line to voltage vs. mass. The relationship is approximately linear, as expected: voltage tracks resistance, resistance tracks strain, and strain tracks mass.
 
-![Calibration graph](calibration_plot.png)
+![Calibration graph](calibration_plot_strain_gauge.png)
 
 ## Results
 - Sensitivity: about **[0.94] mV per gram**
